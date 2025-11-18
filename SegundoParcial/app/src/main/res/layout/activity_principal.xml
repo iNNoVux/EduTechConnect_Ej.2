@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    tools:context=".actividades.Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:text="EduTech Connect"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/background_white"/>
+        </LinearLayout>
+
+        <!-- TITULO PRINCIPAL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EduTech Connect"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <!-- SEARCH BAR -->
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Buscar..."
+            android:textColor="#212121"
+            android:textColorHint="@color/colorAccent"
+            android:paddingStart="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/searchbar_back"/>
+
+        <!-- GRID CENTRADO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:alignmentMode="alignMargins"
+                android:paddingTop="10dp">
+
+                <!-- CARD BLUE -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/card_blue"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="MKT"
+                        android:textColor="#212121"
+                        android:textSize="32sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- CARD ORANGE -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/card_orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="HTML"
+                        android:textColor="#212121"
+                        android:textSize="32sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- CARD PURPLE -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/card_purple"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="SCI"
+                        android:textColor="#212121"
+                        android:textSize="32sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- CARD GREEN -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/card_green"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="FIN"
+                        android:textColor="#212121"
+                        android:textSize="32sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <!-- BOTON -->
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/background_white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

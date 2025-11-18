@@ -1,0 +1,8 @@
+<!-- colors.xml -->
+<resources>
+    <color name="colorPrimary">#1A3A63</color>
+    <color name="colorPrimaryDark">#274A78</color>
+    <color name="colorAccent">#A8B3C1</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="text_dark">#0D1A25</color>
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base de la aplicación -->
+    <style name="Base.Theme.Ejemplo" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- FONDO BLANCO -->
+        <item name="android:colorBackground">@color/background_white</item>
+
+        <!-- COLORES PRINCIPALES -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <!-- COLOR DE TEXTO POR DEFECTO -->
+        <item name="android:textColor">@color/text_dark</item>
+
+    </style>
+
+    <!-- Tema final que usa la app -->
+    <style name="Theme.Ejemplo" parent="Base.Theme.Ejemplo" />
+
+</resources>
